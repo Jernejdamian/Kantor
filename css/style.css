@@ -12,9 +12,14 @@ html{
         padding: 20px;
         display: block;
         text-align: center;
+        background-image: url("../images/strikes.jpeg");
+        background-size:cover;
+        background-position: center;
+        color: white;
+        background-attachment: fixed;
         }
     .js-form{
-        background-color: #562800;
+        
         color: white;
         font-weight: bold;
         font-size: 20px;
