@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>currenty-conventer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+<body class="body">
+    <form class="js-form form">
+        <div class="form__div">KALKULATOR WYMIANY WALUT</div>
+        <section class="form__section">
+            <p class="section__paragraph">Wybierz z jakiej waluty chcesz przeliczyć</p>
+            <select class="js-firstSelect section__select">
+                <option>PLN</option>
+                <option>EURO</option>
+                <option>GBP</option>
+            </select>
+            <p class=" section__paragraph">Wybierz na jaką walutę chcesz przeliczyć</p>
+            <select class="js-secondSelect section__select">
+                <option>PLN</option>
+                <option>EURO</option>
+                <option>GBP</option>
+            </select>
+            <p class="section__paragraph ">Wpisz jaką kwotę chcesz wymienić</p>
+            <input class="js-input" type="number" min="10" placeholder="Kwota minimalna to 10">
+        </section>
+        <p class="form__paragraph">Po przeliczeniu otrzymasz <strong class="js-result">N/A</strong>*</p>
+        <p class="form__paragraph--two">*Kursy walut wazne na 29.12.22</p>
+    </form>
+    
+</body>
+</html>
