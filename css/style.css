@@ -19,6 +19,7 @@ html{
         background-attachment: fixed;
         }
     .form{
+        background-color: rgba(0, 0, 0, 0.90);
         color: white;
         font-weight: bold;
         font-size: 20px;
