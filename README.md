@@ -9,6 +9,7 @@ https://jernejdamian.github.io/Kantor/
 - Javascript 
 - BEM 
 - Open Graph Protocol
+- ES6 Features
 ## Gif my page
 ![Gif-kantor](https://user-images.githubusercontent.com/108942033/211195300-acfc1c49-d277-40ac-9d7e-e3a516e3b26e.gif)
 
