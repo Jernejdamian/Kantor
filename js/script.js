@@ -1,10 +1,8 @@
 {
-    const Welcome = () => {
+    const welcome = () => {
         console.log("Welcome in my currency conventer")
     }
-    Welcome();
-}
-{
+
     const dataDownload = (firstSelect) => {
 
         switch (firstSelect.value) {
@@ -67,6 +65,7 @@
     const init=()=>{
         const formElement = document.querySelector(".js-form");
     formElement.addEventListener("input", onFormInput)
+    welcome();
     }
     init();
 }
