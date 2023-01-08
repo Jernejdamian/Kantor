@@ -1,6 +1,6 @@
 # Kantor online
 This is my currency calculator. You can convert three currencies: PLN, EURO, GBP.
-Exchange rates are from 6th December 2022
+Exchange rates are from 29th December 2022
 ## Demo
 https://jernejdamian.github.io/Kantor/
 ## Used Technology
